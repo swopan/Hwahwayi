@@ -34,7 +34,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Swopan")
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002113581930"))
 
-TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "6484310607:AAFwIFgPDBbbuiZ8Vt8eN02A6ZUHy_M1vgM"))
+TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "Hii.  I am Alive.")
